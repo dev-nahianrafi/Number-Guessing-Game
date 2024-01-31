@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #FFE2FE;
+}
+.main{
+    margin-top: 7rem;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+    background-color: #B3EFB2;
+    padding: 40px 0;
+    text-align: center;
+}
+.game_box{
+    text-align: center;
+}
+.game_box h1{
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+.img{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+.first_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.second_img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.first_player{
+    padding: 10px;
+    padding-left: 10px;
+    font-family: "Gamja Flower", sans-serif;
+    color: #19231A;
+    /* padding-left: 120px */
+}
+.player_one_box{
+    padding-left: 10px;
+    text-align: center;
+}
+.player_one_input{
+    padding: 10px;
+    height: 40px;
+    width: 420px;
+    margin-bottom: 15px;
+}
+.player_one_eror{
+    color: red;
+    padding-bottom: 20px;
+}
+.start_btn{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #19231A;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.player_second{
+    padding-left: 10px;
+    text-align: center;
+    display: none;
+}
+.player_two_input{
+    padding: 10px;
+    height: 40px;
+    width: 420px;
+    margin-bottom: 15px;
+}
+.player_two_eror{
+    color: red;
+    padding-bottom: 20px;
+}
+.guess_btn{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #19231A;
+    color: #fff;
+    cursor: pointer;
+}
+.restart{
+    padding: 15px 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #19231A;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    margin: 0 auto;
+}
+.chance_main{
+    padding: 20px 0;
+}

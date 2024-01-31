@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="game_box">
+                <h1>Number Guessing Game</h1>
+            </div>
+            <div class="img">
+                <img class="first_img" src="./images/game_vector.png" alt="not found">
+                <img class="second_img" src="./images/winner.png" alt="not found">
+            </div>
+            <h2 class="first_player">First Player</h2>
+            <div class="player_one_box">
+                <input class="player_one_input" type="text" placeholder="Enter Your Number">
+                <p class="player_one_eror"></p>
+                <button class="start_btn">Start</button>
+            </div>
+
+            <div class="player_second">
+                <h3 class="chance_main">Chance remain: <span class="chance">5</span></h3>
+                <input class="player_two_input" type="text" placeholder="Guess the Number">
+                <p class="player_two_eror"></p>
+                <button class="guess_btn">Guess</button>
+            </div>
+            <button class="restart">Start again</button>
+        </div>
+    </div>
+    
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
